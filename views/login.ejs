@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+
+
+</head>
+<body>
+<form action="/login" method="post">
+    <label for="username">User name</label>
+    <input type="text" name="username" />
+    <label for="password">PassWord</label>
+    <input type="text" name="password" />
+    <input type="submit" />
+</form>
+
+        <% if (ErrorPassword){ %>
+        <p>You type the wrong password</p>
+        <%} else {%>
+        <p>you about to login</p>
+        <%}%>
+
+</body>
+</html>

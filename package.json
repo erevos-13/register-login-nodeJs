@@ -1,0 +1,26 @@
+{
+  "name": "login_nodejs",
+  "version": "0.0.0",
+  "description": "this is a login with NodeJs",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "express-sessions": "^1.0.6",
+    "mongoose": "^4.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "js"
+  ],
+  "author": "orfeas voutsaridis",
+  "license": "ISC"
+}
